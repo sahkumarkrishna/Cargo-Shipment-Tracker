@@ -1,0 +1,24 @@
+
+### `.gitignore`
+
+This file specifies which files and directories should be ignored by Git. It typically includes `node_modules`, environment files, and other files that should not be tracked.
+
+```plaintext
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore build directories
+dist/
+build/
